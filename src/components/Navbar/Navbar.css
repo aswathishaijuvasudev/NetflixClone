@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+}
+
+.logo{
+    height: 30px;
+}
+
+.avatar{
+    height:20px;
+}
+
+.navLeft{
+    display: flex;
+    gap:10px;
+}
+p{
+    color: white;
+}
+
+.navRight{
+    display: flex;
+    gap:10px;
+}
+
+.bi{
+    color: white;
+}

@@ -1,0 +1,31 @@
+.row{
+    color: white;
+    display: flex;
+    margin-left: 10px;
+}
+
+.poster{
+    /* min-width: 12rem !important; */
+    min-width: 200px;
+    /* min-height:100px; */
+    cursor: pointer;
+    transition: transform .2s;
+    
+}
+
+.poster:hover{
+    transform: scale(1.1);
+}
+.posters{
+    display: flex;
+    overflow-x: scroll !important;
+    overflow-y:hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+p{
+    color: white;
+}
